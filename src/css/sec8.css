@@ -1,0 +1,75 @@
+.s8Cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 135px 79px;
+}
+.s8LinksCont{
+    width: 891px;
+    height: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+.s8Comp{
+    width: 140px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+}
+.s8Comp1{
+    width: 180px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+}
+.s8Comp1 .s8href{
+    width: 175px;
+    height: 110px;
+    white-space: normal;
+}
+.s8Svg{
+    display: flex;
+    gap: 16px;
+}
+.s8cVol{
+    color: var(--text, #363940);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Footer Menu */
+    font-family: navFont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 122.222% */
+    margin-bottom: 20px;
+}
+.s8href{
+    white-space: nowrap;
+    margin-bottom: 10px;
+    color: var(--black-60, #676767);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Footer */
+    font-family: navFont;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.s8Phone{
+    height: 24px;
+    margin-left: 194px;
+    display: flex;
+    align-items: center;
+    color: var(--black-100, #010101);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: navFont;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 129.412% */
+    letter-spacing: 1px;
+}
+.s8Phone svg{
+    margin-right: 11px;
+}

@@ -1,0 +1,38 @@
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(252, 224, 239, 0.20);
+}
+.sec3Vol{
+    color: var(--black-80, #343434);
+    font-family: navFont;
+    font-size: 23px;
+    margin-top: 78px;
+    font-style:normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+.sec3PrtnrsCont{
+    width: 1170px;
+    margin: 88px 0 149.64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partner{
+    width: 185.71px;
+    height: 110.36px;
+}
+.partner.w{
+    background: url("../../img/image3.png"), rgba(252, 224, 239, 0.20)  50% / cover no-repeat;
+}.partner.v{
+    width: 168.704px;
+    height: 88.288px;
+    background: url("../../img/image 4.png"), rgba(252, 224, 239, 0.20)   50% / cover no-repeat;
+}.partner.h{
+    background: url("../../img/image 5.png"), rgba(252, 224, 239, 0.20)   50% / cover no-repeat;
+}.partner.e{
+    background: url("../../img/image 6.png"), rgba(252, 224, 239, 0.20)   50% / cover no-repeat;
+}

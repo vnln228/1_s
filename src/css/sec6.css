@@ -1,0 +1,72 @@
+.s6Cont{
+    margin: 106px 0 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s6txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s6Vol{
+    color: var(--black-80, #343434);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Menu */
+    font-family: navFont;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px; /* 119.444% */
+}
+.s6Desc{
+    width: 548px;
+    color: var(--black-40, #999);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Subtitle */
+    font-family: navFont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+.s6Labs{
+    width: 1170px;
+    height: 257px;
+    margin: 84px;
+    display: grid;
+    gap: 160px;
+    column-gap: 55px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.s6Lab{
+    width: 172px;
+    height: 110px
+}
+.s6Lnumb{
+    color: var(--black-80, #343434);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Values */
+    font-family: navFont;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px; /* 107.5% */
+    }
+.s6Ltxt{
+    color: var(--black-60, #676767);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: navFont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+

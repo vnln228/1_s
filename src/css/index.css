@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+@font-face {
+  font-family: "navFont";
+  src: url("../../font/Inter-SemiBold.woff2");
+}
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  height: 781px;
+}
+
